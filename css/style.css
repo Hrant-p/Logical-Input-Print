@@ -1,0 +1,68 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  padding: 40px 90px;
+  border: 1px dotted black;
+}
+h1{
+    transition-duration: 0.3s;
+}
+h4{
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px darkgray;
+    transition-duration: 0.3s;
+}
+p{
+    transition-duration: 0.3s;
+}
+img{
+    float: left;
+    transition-duration: 0.3s;
+}
+p:hover, h1:hover, h4:hover{
+    transform: rotateZ(2deg);
+    transition: transform 300ms linear;
+    text-shadow: 1px 1px 1px rgb(1, 1, 56);
+  }
+
+img:hover{
+    transform: rotateZ(180deg);
+    transition: transform 300ms linear;
+    text-shadow: 1px 1px 1px rgb(1, 1, 56);
+}
+
+input{
+    width: 150px;
+    height: 20px;
+    margin: 50px 20px;
+    transition-duration: 0.1s;
+    box-shadow: 0.5px 0.5px 0.5px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.2s;
+
+}
+
+button{
+    background-color: rgba(27, 27, 49, 0.5);
+    color: beige;
+    width: 100px;
+    height: 25px;
+    transition-duration: 0.1s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    outline: outset groove;
+    background-color: rgb(208, 215, 224);
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(1, 1, 56);
+    color: white;
+}
+
+input:hover{
+    background-color: rgba(191, 193, 218, 0.411);
+    color:black;
+    transform: scale(1.05);
+    box-shadow: 1px 1px 2px rgb(14, 2, 2);
+    font-size: 1.1rem;
+}
